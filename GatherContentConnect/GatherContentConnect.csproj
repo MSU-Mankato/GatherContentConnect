@@ -30,7 +30,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -40,8 +45,50 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GcConnectClient.cs" />
+    <Compile Include="Interface\IGcAnnouncements.cs" />
+    <Compile Include="Interface\IGcAccount.cs" />
+    <Compile Include="Interface\IGcConfig.cs" />
+    <Compile Include="Interface\IGcDataCollection.cs" />
+    <Compile Include="Interface\IGcDataObject.cs" />
+    <Compile Include="Interface\IGcDataRepository.cs" />
+    <Compile Include="Interface\IGcDate.cs" />
+    <Compile Include="Interface\IGcDueDate.cs" />
+    <Compile Include="Interface\IGcElement.cs" />
+    <Compile Include="Interface\IGcFile.cs" />
+    <Compile Include="Interface\IGcItem.cs" />
+    <Compile Include="Interface\IGcMe.cs" />
+    <Compile Include="Interface\IGcOption.cs" />
+    <Compile Include="Interface\IGcProject.cs" />
+    <Compile Include="Interface\IGcStatus.cs" />
+    <Compile Include="Interface\IGcTemplate.cs" />
+    <Compile Include="Interface\IGcUsage.cs" />
+    <Compile Include="Interface\IRestClient.cs" />
+    <Compile Include="Objects\GcAccount.cs" />
+    <Compile Include="Objects\GcAnnouncements.cs" />
+    <Compile Include="Objects\GcConfig.cs" />
+    <Compile Include="Objects\GcDataCollection.cs" />
+    <Compile Include="Objects\GcDataObject.cs" />
+    <Compile Include="Objects\GcDate.cs" />
+    <Compile Include="Objects\GcDueDate.cs" />
+    <Compile Include="Objects\GcElement.cs" />
+    <Compile Include="Objects\GcFile.cs" />
+    <Compile Include="Objects\GcItem.cs" />
+    <Compile Include="Objects\GcMe.cs" />
+    <Compile Include="Objects\GcOption.cs" />
+    <Compile Include="Objects\GcProject.cs" />
+    <Compile Include="Objects\GcStatus.cs" />
+    <Compile Include="Objects\GcTemplate.cs" />
+    <Compile Include="Objects\GcUsage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Http\GcHttpClient.cs" />
+    <Compile Include="Data\GcDataRepository.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="GatherContentConnect.nuspec" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
