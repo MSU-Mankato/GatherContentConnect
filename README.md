@@ -1,37 +1,32 @@
-# You've added your first ReadMe file!
-A README.md file is intended to quickly orient readers to what your project can do.  New to Markdown? [Learn more](http://go.microsoft.com/fwlink/p/?LinkId=524306&clcid=0x409)
+# GatherContentConnect
+GatherContentConnect is a C# library that encapsulates the GatherContent REST API 
 
-## Edit this ReadMe and commit your change to a topic branch
-In Git, branches are cheap.  You should use them whenever you're making changes to your repository.  Edit this file by clicking on the edit icon.
+## Using the Library
+Documentation coming soon
 
-Then make some changes to this ReadMe file.
+## Examples
+Code examples coming soon
 
-> Make some **edits** to _this_ blockquote
+# License
 
-When you are done, click the dropdown arrow next to the save button - that will allow you to commit your changes to a new branch.
+MIT License
 
-## Create a pull request to contribute your changes back into master
-Pull requests are the way to move changes from a topic branch back into the master branch.
+Copyright (c) 2017 Minnesota State University, Mankato
 
-Click on the **Pull Requests** page in the **CODE** hub, then click "New Pull Request" to create a new pull request from your topic branch to the master branch.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-When you are done adding details, click "Create Pull request". Once a pull request is sent, reviewers can see your changes, recommend modifications, or even push follow-up commits.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-First time creating a pull request?  [Learn more](http://go.microsoft.com/fwlink/?LinkId=533211&clcid=0x409)
-
-### Congratulations! You've completed the grand tour of the CODE hub!
-
-# Next steps
-
-If you haven't already done so, [install Git](http://git-scm.com/downloads) (as well as [Git Credential Manager](https://java.visualstudio.com/Downloads/gitcredentialmanager/Index) for Linux or Mac OS)
-
-Choose and install one of these supported IDEs:
-* [Visual Studio](http://go.microsoft.com/fwlink/?LinkId=309297&clcid=0x409&slcid=0x409)
-* [Android Studio](https://developer.android.com/studio) (with [Team Services Plugin](https://java.visualstudio.com/Downloads/intellijplugin/Index))
-* [Eclipse](http://www.eclipse.org/downloads) (with [Team Explorer Everywhere](https://java.visualstudio.com/Downloads/eclipseplugin/Index))
-* [IntelliJ IDEA](https://www.jetbrains.com/idea/download) (with [Team Services Plugin](https://java.visualstudio.com/Downloads/intellijplugin/Index))
-* [Visual Studio Code](https://code.visualstudio.com/Download) (with [Team Services Extension](https://java.visualstudio.com/Downloads/visualstudiocode/Index))
-
-Then clone this repo to your local machine to get started with your own project.
-
-Happy coding!
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
