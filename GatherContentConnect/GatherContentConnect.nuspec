@@ -2,14 +2,14 @@
 <package >
   <metadata>
     <id>$id$</id>
-    <version>$version$-rc</version>
+    <version>$version$</version>
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
     <iconUrl>http://www.mnsu.edu/images/icons/mnsu-flame.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Pre-Release</releaseNotes>
+    <releaseNotes>Initial Release</releaseNotes>
     <copyright>Copyright © 2018 Minnesota State University,Mankato</copyright>
     <tags>GatherContent,API</tags>
      <dependencies>
