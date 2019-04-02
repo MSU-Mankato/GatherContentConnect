@@ -17,6 +17,8 @@ namespace GatherContentConnect.Http
         private const string BaseUrl = "https://api.gathercontent.com";
         public GcHttpClient(string apiKey, string userEmail)
         {
+            System.Net.ServicePointManager.SecurityProtocol =
+                SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
             var authValue = new AuthenticationHeaderValue("Basic", Convert.ToBase64String(Encoding.UTF8.GetBytes($"{userEmail}:{apiKey}")));
 
             _httpClient = new HttpClient
